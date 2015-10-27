@@ -10,6 +10,26 @@
 		50802EEA1B83190A00796FF7 /* BantamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 50802EE91B83190A00796FF7 /* BantamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50802EF11B83190A00796FF7 /* BantamParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50802EE61B83190A00796FF7 /* BantamParser.framework */; };
 		50802EF61B83190A00796FF7 /* BantamParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802EF51B83190A00796FF7 /* BantamParserTests.swift */; };
+		50802F091B83195600796FF7 /* BantamParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F001B83195600796FF7 /* BantamParser.swift */; };
+		50802F0A1B83195600796FF7 /* Expressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F011B83195600796FF7 /* Expressions.swift */; };
+		50802F0B1B83195600796FF7 /* InfixParselet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F021B83195600796FF7 /* InfixParselet.swift */; };
+		50802F0C1B83195600796FF7 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F031B83195600796FF7 /* Lexer.swift */; };
+		50802F0D1B83195600796FF7 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F041B83195600796FF7 /* Parser.swift */; };
+		50802F0E1B83195600796FF7 /* Precedence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F051B83195600796FF7 /* Precedence.swift */; };
+		50802F0F1B83195600796FF7 /* PrefixParselet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F061B83195600796FF7 /* PrefixParselet.swift */; };
+		50802F101B83195600796FF7 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F071B83195600796FF7 /* Token.swift */; };
+		50802F111B83195600796FF7 /* TokenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F081B83195600796FF7 /* TokenType.swift */; };
+		50802F131B831CFE00796FF7 /* ParseException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F121B831CFE00796FF7 /* ParseException.swift */; };
+		50802F161B83380E00796FF7 /* TokenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F081B83195600796FF7 /* TokenType.swift */; };
+		50802F171B83381100796FF7 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F071B83195600796FF7 /* Token.swift */; };
+		50802F181B83381400796FF7 /* PrefixParselet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F061B83195600796FF7 /* PrefixParselet.swift */; };
+		50802F191B83381700796FF7 /* Precedence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F051B83195600796FF7 /* Precedence.swift */; };
+		50802F1A1B83381B00796FF7 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F041B83195600796FF7 /* Parser.swift */; };
+		50802F1B1B83381E00796FF7 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F031B83195600796FF7 /* Lexer.swift */; };
+		50802F1C1B83382100796FF7 /* ParseException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F121B831CFE00796FF7 /* ParseException.swift */; };
+		50802F1D1B83382400796FF7 /* InfixParselet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F021B83195600796FF7 /* InfixParselet.swift */; };
+		50802F1E1B83382700796FF7 /* Expressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F011B83195600796FF7 /* Expressions.swift */; };
+		50802F1F1B83382B00796FF7 /* BantamParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50802F001B83195600796FF7 /* BantamParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +49,16 @@
 		50802EF01B83190A00796FF7 /* BantamParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BantamParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50802EF51B83190A00796FF7 /* BantamParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BantamParserTests.swift; sourceTree = "<group>"; };
 		50802EF71B83190A00796FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50802F001B83195600796FF7 /* BantamParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BantamParser.swift; sourceTree = "<group>"; };
+		50802F011B83195600796FF7 /* Expressions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expressions.swift; sourceTree = "<group>"; };
+		50802F021B83195600796FF7 /* InfixParselet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfixParselet.swift; sourceTree = "<group>"; };
+		50802F031B83195600796FF7 /* Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
+		50802F041B83195600796FF7 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		50802F051B83195600796FF7 /* Precedence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Precedence.swift; sourceTree = "<group>"; };
+		50802F061B83195600796FF7 /* PrefixParselet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefixParselet.swift; sourceTree = "<group>"; };
+		50802F071B83195600796FF7 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		50802F081B83195600796FF7 /* TokenType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenType.swift; sourceTree = "<group>"; };
+		50802F121B831CFE00796FF7 /* ParseException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseException.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +101,16 @@
 		50802EE81B83190A00796FF7 /* BantamParser */ = {
 			isa = PBXGroup;
 			children = (
+				50802F001B83195600796FF7 /* BantamParser.swift */,
+				50802F011B83195600796FF7 /* Expressions.swift */,
+				50802F021B83195600796FF7 /* InfixParselet.swift */,
+				50802F121B831CFE00796FF7 /* ParseException.swift */,
+				50802F031B83195600796FF7 /* Lexer.swift */,
+				50802F041B83195600796FF7 /* Parser.swift */,
+				50802F051B83195600796FF7 /* Precedence.swift */,
+				50802F061B83195600796FF7 /* PrefixParselet.swift */,
+				50802F071B83195600796FF7 /* Token.swift */,
+				50802F081B83195600796FF7 /* TokenType.swift */,
 				50802EE91B83190A00796FF7 /* BantamParser.h */,
 				50802EEB1B83190A00796FF7 /* Info.plist */,
 			);
@@ -142,6 +182,7 @@
 		50802EDD1B83190A00796FF7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = mdciotti;
 				TargetAttributes = {
@@ -193,6 +234,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50802F111B83195600796FF7 /* TokenType.swift in Sources */,
+				50802F091B83195600796FF7 /* BantamParser.swift in Sources */,
+				50802F0E1B83195600796FF7 /* Precedence.swift in Sources */,
+				50802F131B831CFE00796FF7 /* ParseException.swift in Sources */,
+				50802F0B1B83195600796FF7 /* InfixParselet.swift in Sources */,
+				50802F0D1B83195600796FF7 /* Parser.swift in Sources */,
+				50802F0F1B83195600796FF7 /* PrefixParselet.swift in Sources */,
+				50802F0C1B83195600796FF7 /* Lexer.swift in Sources */,
+				50802F0A1B83195600796FF7 /* Expressions.swift in Sources */,
+				50802F101B83195600796FF7 /* Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +251,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50802F171B83381100796FF7 /* Token.swift in Sources */,
+				50802F1D1B83382400796FF7 /* InfixParselet.swift in Sources */,
+				50802F1C1B83382100796FF7 /* ParseException.swift in Sources */,
+				50802F1B1B83381E00796FF7 /* Lexer.swift in Sources */,
+				50802F191B83381700796FF7 /* Precedence.swift in Sources */,
+				50802F1E1B83382700796FF7 /* Expressions.swift in Sources */,
+				50802F1A1B83381B00796FF7 /* Parser.swift in Sources */,
+				50802F181B83381400796FF7 /* PrefixParselet.swift in Sources */,
 				50802EF61B83190A00796FF7 /* BantamParserTests.swift in Sources */,
+				50802F161B83380E00796FF7 /* TokenType.swift in Sources */,
+				50802F1F1B83382B00796FF7 /* BantamParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +363,7 @@
 		50802EFB1B83190A00796FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -314,12 +376,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.mdc.BantamParser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		50802EFC1B83190A00796FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
